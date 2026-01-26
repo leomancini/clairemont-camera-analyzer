@@ -1,0 +1,9 @@
+{
+  "service_id": "clairemont-camera-analzyer",
+  "service_name": "clairemont-camera-analzyer",
+  "domain": "https://clairemont-camera-analzyer.noshado.ws",
+  "host": "localhost",
+  "port": "3121",
+  "author": "leo",
+  "created_on": "Mon 26 Jan 2026 12:11:22 AM EST"
+}
