@@ -12,8 +12,9 @@ const __dirname = path.dirname(__filename);
 const app = express();
 const port = 3120;
 
-// Serve static images
+// Serve static images and analysis JSON
 app.use('/images', express.static(path.join(__dirname, 'images')));
+app.use('/analysis', express.static(path.join(__dirname, 'analysis')));
 
 app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, 'dashboard.html'));
